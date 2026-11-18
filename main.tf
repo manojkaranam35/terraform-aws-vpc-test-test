@@ -1,6 +1,6 @@
 module "vpc" {
     #source = "../terraform-aws-vpc"
-    source = "https://github.com/manojkaranam35/terraform-aws-vpc.git"
+    source = "git::https://github.com/manojkaranam35/terraform-aws-vpc.git"
     /*project = "roboshop"
     environment = "dev"
     public_subnet_cidrs = ["10.0.1.0/24", "10.0.2.0/24"]*/
